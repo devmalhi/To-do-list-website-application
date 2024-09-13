@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munesh Kumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do-List</h2>
+        <div class="input-group">
+            <input type="text" placeholder="enter you Task">
+        </div>
+        <div class="btn">
+            <button class="btn btn-success">Add Task</button>
+        </div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Task</th>
+                <th scope="col">Button</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Vist my gym</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Go to the gym</td>
+                <th>
+                    <div class="right">
+                        <button class="btn btn-danger">Edit</button>
+                        <button class="btn btn-success">Delete</button>
+                    </div>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+    </div>    
+    <script src="javascript.js"></script>
+</body>
+</html>
